@@ -19,18 +19,29 @@
                  background-color: #E8EDDF ;
                  text-align: center;
              }
+             div{
+                 text-align: center;
+             }
              a{
                  text-decoration: none;
+                 color: inherit;
              }
 
             
-             .corpo-texto{
-                 background-color: #F5CB5C;
+             .text-body{
+                 background-color: #242423;
+                 background-color: ;
+                 color: #F5CB5C;
+                 text-align: center;
+                 border: 20px solid;
+                 border-color:#E8EDDF
              }
 
              .lista-indice{
                  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                  text-decoration: none;
+                 font-size: xx-large;
+                 color: #F5CB5C;
              }
              .lista-habilidades{
                  background-color:#F5CB5C;
@@ -38,14 +49,18 @@
                  text-decoration: none;
              }
              .lista-redes-sociais{
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                  text-align: center;
-                 background-color: #E8EDDF
-                 ;
+                 background-color: #E8EDDF;
+                 vertical-align: middle;
+                 line-height: 1;
+
              }
              .end{
                 text-align: center;
                 background-color: #F5CB5C;
+                box-sizing: border-box;
+                border: 2px solid #242423;
              }
 
 
@@ -58,36 +73,41 @@
     <body>
         <hr>   
          <h1 id="name">João Victor Alves Mendes</h1>
+         <div>
          <img class="picture" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/41375a3f-bdba-41e2-b703-fe87ea6825e5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220506%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220506T181146Z&X-Amz-Expires=86400&X-Amz-Signature=e635bbe75db2de1729d17c1ff9acebb54d8a418492edfc40b0faa29d0ce7a03f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="200" alt="Foto de um rapaz, em uma rua de Nova Iork, Estados Unidos da America, com um fundo para a ponte do Brooklin">
+        </div>
          <hr>
          <h1 class="titles" >Índice</h1>
          <ol class="lista-indice">
-            <li> <a href="#Quem sou eu?">Quem sou eu?</a>  </li>
+            <li> <a href="#Quem sou eu?">Quem sou eu?</a></li>
             <hr>
-            <li><a href="#Algumas habilidades">Algumas habilidades</a> </li>
+            <li><a href="#Algumas habilidades">Algumas habilidades</a></li>
             <hr>
-            <li><a href="Redes Sociais">Redes Sociais</a> </li>
+            <li><a href="#Redes Sociais">Redes Sociais</a></li>
             <hr>
         </ol>
          <h2 class="titles" id="Quem sou eu?">Quem sou eu?</h2>
-         <p>Ola! <strong>Sou João</strong> , nasci e cresci em <em>Maceió Alagoas</em> , gosto muito de me divertir, 
-            <br> de viajar para lugares diferentes, amo muito minha família, 
-            <br> sou uma pessoa apaixonada por tecnologia e inovações.
+         <p class="text-body">Ola! <strong>Sou João</strong> , nasci e cresci em <em>Maceió Alagoas</em> , gosto muito de me divertir, 
+            de viajar para lugares diferentes, amo muito minha família, 
+            sou uma pessoa apaixonada por tecnologia e inovações.
         </p>
-        <p>Estou estudando na Trybe e 👨‍💻 desenvolvimento Full Stack, 
-            <br> formado em Administração de empresas, estive procurando 
-            <br> me especializar em outra área, sempre tive uma proximidade 
-            <br> com o campo de desenvolvimento e agora estou aqui, 
-            <br> aprendendo muitas coisas novas todos os dias o pessoal da Trybe.
+        <br>
+        <div>
+        <p class="text-body">Estou estudando na Trybe e 👨‍💻 desenvolvimento Full Stack, 
+            formado em Administração de empresas, estive procurando 
+            me especializar em outra área, sempre tive uma proximidade 
+            com o campo de desenvolvimento e agora estou aqui, 
+            aprendendo muitas coisas novas todos os dias o pessoal da Trybe.
         </p>
+        </div>
         <hr>
         <h3 class="titles" id="Algumas habilidades">Algumas habilidades</h3>
         <ul class="lista-habilidades">
-            <li>Proativo</li>
+            <li> Proativo</li>
             <li>Dedicado</li>
             <li>Atenciso</li>
             <li>Organizado</li>
-            <li>Seterminado</li>
+            <li>Determinado</li>
         </ul>
         <hr>
         <h3 class="titles" id="Redes Sociais">Redes Sociais</h3>
